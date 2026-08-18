@@ -1,0 +1,16 @@
+{
+  "name": "aaowasi369-portfolio",
+  "version": "12.0.0",
+  "private": true,
+  "description": "Zero-dependency premium interactive governance portfolio",
+  "scripts": {
+    "check": "node scripts/preflight.mjs",
+    "build": "node scripts/build.mjs",
+    "postbuild": "node scripts/verify-output.mjs",
+    "start": "node scripts/serve-static.mjs"
+  },
+  "engines": {
+    "node": ">=20 <24"
+  },
+  "packageManager": "npm@10.9.2"
+}
